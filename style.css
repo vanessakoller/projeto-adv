@@ -181,7 +181,7 @@ nav{
     }
     .destaques-paragrafo {
         font-family: 'Poppins', sans-serif;
-        font-size: 1.2rem;
+        font-size: 1.0rem;
         font-weight: 500;
         text-align: center;
     }
@@ -571,3 +571,329 @@ nav{
         color: #fff;
         background-color: transparent;
     }
+    footer {
+        width: 100%;
+        height: 100vh;
+        background-color: #323a43;
+        padding: 200px 140px 80px 140px;
+    }
+           
+    .footer-content {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .about-text {
+        width: 40%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        row-gap: 70px;
+    }
+    .about-text h2 {
+        color: #c8b050;
+        margin: 0;
+        font-size: 1rem;
+        letter-spacing: 6px;
+        font-weight: 700;
+    }
+    .about-text p {
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.3rem;
+        font-weight: 500;
+        color: #fff;
+        line-height: 2;
+    }
+    .social-media {
+        display: flex;
+        column-gap: 20px;
+    }
+    .social-media i {
+        font-size: 1.3rem;
+        color: #fff;
+        cursor: pointer;
+    }
+    #facebook-icon:hover {
+        color: #007bff;
+    }
+    #telegram-icon:hover {
+        color: #17a2b8;
+    }
+    #linkedin-icon:hover {
+        color: #007bff;
+    }
+    #instagram-icon:hover {
+        color:#e83e8c;
+    }
+    #youtube-icon:hover {
+        color: #dc3545;
+    }
+    .theme-posts {
+        width: 40%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .theme-posts h2 {
+        color: #c8b050;
+        margin: 0;
+        font-size: 1rem;
+        letter-spacing: 6px;
+        font-weight: 700;
+        margin-bottom: 40px;
+    }
+    .posts {
+        width: 100%;
+        height: 100px;
+        margin-bottom: 15px;
+        display: flex;
+    }
+    .post-img {
+        width: 20%;
+        height: auto;
+    }
+    .post-content {
+        width: 80%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 0 80px 0 10px;
+    }
+    .post-content p {
+        font-family: 'Poppins', sans-serif;
+        color: #fff;
+        font-weight: 700;
+        font-size: 1.2rem;
+    }
+    .post-content p:hover {
+        color: #c8b050;
+    }
+    .post-date {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        column-gap: 15px;
+    }
+    #clock-icon {
+        color: #c8b050;
+    }
+    .post-date span {
+        font-family: 'Poppins' , sans-serif;
+        color: #fff;
+        font-weight: 500;
+        font-size: 1.2rem;
+    }
+    .copyright {
+        width: 100%;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .copyright span {
+        font-family: 'Poppins', sans-serif;
+        letter-spacing: 6px;
+        color: #2e353d;
+        font-size: 0.9rem;
+    }
+
+    @media (max-width: 1440px) {
+        .content {
+          padding: 0 90px;
+        }
+        #square-3 {
+          padding: 0 60px;
+        }
+        .comentarios-cards-container {
+          padding: 0 100px;
+        }
+        .post-content {
+          padding: 0 55px 0 10px;
+        }
+      }
+
+      @media (max-width: 1280px) {
+        header {
+            padding: 0 40px;
+        }
+
+        .destaques-container {
+            padding: 0 60px;
+        }
+        .comentarios-cards-container {
+            padding: 0 110px;
+        }
+        footer {
+            padding: 2220px 60px 80px 60px;
+        }
+      }
+      @media (max-width: 1024px) {
+        .destaques-container {
+            padding: 0 20px;
+        }
+        .our-services-content {
+            padding: 0 20px;
+        }
+        .service-title {
+            font-size: 1.0rem;
+        }
+        .service-description {
+            font-size: 0.8rem;
+        }
+        .content {
+            padding: 0 60px;
+        }
+        #square-3 {
+            padding: 0 40px;
+        }
+        .comentarios-cards-container {
+            padding: 0 50px;
+        }
+        .form-content {
+            padding: 120px 20px 60px 20;
+        }
+        footer {
+            padding: 220px 30px 80px 30px;
+        }
+      }
+      @media (max-width: 835px) {
+        nav {
+            display: none;
+        }
+
+        #menu-icon {
+            display: block;
+        }
+        .home-container {
+            background-position: 70% 50%;
+            align-items: center;
+        }
+        .presentation-container {
+            width: 90%;
+            margin-top: 0;
+        }
+        .destaques-container {
+            padding: 0 40px;
+            top: 150vh;
+        }
+        .destaques-content {
+            grid-template-columns: repeat(1, 1fr);
+            row-gap: 10px;
+        }
+        .content {
+            height: 300px;
+            row-gap: 10px;
+            padding: 0 20px;
+        }
+        .welcome-container {
+            height: 165vh;
+        }
+        .signature-text {
+            width: 95%;
+            height: 20%;
+            row-gap: 10px;
+            padding: 0 10px;
+        }
+        .attorney-img {
+            margin-left: 10px;
+            width: 70%;
+        }
+        .our-services-content {
+            grid-template-columns: repeat(2, 1fr);
+         }
+         .comentarios-container {
+            height: 100vh;
+         }
+         .comentarios-cards-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+         }
+         #card-1 {
+            display: none;
+         }
+         #card-2 {
+            display: none;
+         }
+         .form-container {
+            flex-direction: column;
+         }
+         .form-img {
+            height: 30%;
+            width: 100%;
+         }
+         .form-content {
+            width: 100%;
+            height: 70%;
+            padding: 120px 40px 60px 40px;
+            row-gap: 30px;
+         }
+         footer {
+            padding: 100px 40px 0 40px;
+            height: 90vh;
+         }
+         .footer-content {
+            flex-direction: column;
+            justify-content: center;
+         }
+         .about-text {
+            width: 100%;
+            height: 40%;
+         }
+         .theme-posts {
+            width: 100%;
+            height: 45%;
+         }
+         .post-content {
+            padding: 0 140px 0 10px;
+         }
+      }
+      @media (media-width:768px) {
+        .welcome-container {
+            height: 180vh;
+        }
+        .attorney-img {
+            margin-left: 0;
+        }
+        .attorney-container {
+            width: 55%;
+        }
+        .signature-content {
+            width: 45%;
+        }
+        footer {
+            height: 110vh;
+        }
+      }
+
+      @media (max-width: 600px) {
+        .welcome-container {
+            height: 240vh;
+        }
+        .signature-container {
+            flex-direction: column;
+            justify-content: end;
+        }
+        .signature-content {
+            width: 95%;
+            height: 25%;
+            justify-content: end;
+        }
+        .attorney-container {
+            width: 95%;
+            height: 30%;
+            justify-content: center;
+        }
+        .attorney-img {
+            width: auto;
+        }
+        .our-services-content {
+            padding: 0 10px 0 2-px;
+        }
+        .our-services-text {
+            width: 95%;
+            padding: 20px 10px 0 10px;
+        }
+      }
